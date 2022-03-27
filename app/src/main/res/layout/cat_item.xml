@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/cat_item_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cat_item_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="12635625365" />
+
+            <TextView
+                android:id="@+id/cat_item_tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12635625365" />
+
+            <TextView
+                android:id="@+id/cat_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12635625365" />
+
+            <TextView
+                android:id="@+id/cat_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12635625365" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/cat_item_btn_edit"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:text="Edit" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/cat_item_btn_remove"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:text="Remove" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
